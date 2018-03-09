@@ -1,0 +1,22 @@
+{
+  "name": "ethereum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "ganache-cli": "^6.0.3",
+    "path": "^0.12.7",
+    "solc": "^0.4.20",
+    "web3": "^1.0.0-beta.30"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Vincent Moore",
+  "license": "ISC"
+}

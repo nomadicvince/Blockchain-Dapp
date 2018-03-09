@@ -5,7 +5,7 @@ const Web3 = require('web3');
 const {interface, bytecode} = require('./compile');
 
 const provider = new HDWalletProvider(
-  'mneumonic seed phrase', 'infura link'
+  'mnemonic seed phrase', 'infura link'
 );
 
 const web3 = new Web3(provider);
